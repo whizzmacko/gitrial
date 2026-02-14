@@ -6,3 +6,10 @@ my_fx<-function(a,b){
   }
 }
 my_fx(4,9)
+
+my_fx1<-function(c,f){
+  temp=5/9+ 32*c*f
+  Temp=temp/100
+  paste("temperature is: ", Temp, "degree")
+}
+my_fx1(6,8)
