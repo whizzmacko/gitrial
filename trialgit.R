@@ -13,3 +13,6 @@ my_fx1<-function(c,f){
   paste("temperature is: ", Temp, "degree")
 }
 my_fx1(6,8)
+
+a<- 7
+b<-8
